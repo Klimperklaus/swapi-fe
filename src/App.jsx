@@ -1,7 +1,9 @@
+import Footer from './components/Footer.jsx'
 function App() {
   return (
     <>
-      <h1>Hello There</h1>
+      <h1>Star Wars Page</h1>
+      <Footer/>
     </>
   );
 }
