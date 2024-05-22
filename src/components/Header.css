@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-div {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+.user-input {
+  scale: 1.2;
+  text-align: center;
+}
+
+.search-button {
+  scale: 1.2;
+  margin-left: 1.5rem;
+}

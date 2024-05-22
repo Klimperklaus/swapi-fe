@@ -3,9 +3,12 @@ import { ReactComponent as Logo } from '../images/wars.svg'; // adjust the path 
 
 export function Header() {
   return (
-    <header>
+
+    <header className="search-div">
       <Logo />
+      <input className="user-input" type="text" placeholder="Type here..." />
+      <button className="search-button">Search</button>
     </header>
   );
-};
-```
+}
+
