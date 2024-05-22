@@ -1,0 +1,11 @@
+@use "../utils/colors.scss" as *;
+@mixin fontFace {
+  @import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap");
+}
+
+h1 {
+  @include fontFace;
+  font-size: 5rem;
+  text-align: center;
+  color: $neutral--dark;
+}
